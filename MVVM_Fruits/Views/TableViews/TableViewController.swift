@@ -24,11 +24,13 @@ class TableViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("inViewdidLoad")
 
         // Do any additional setup after loading the view.
         
 //        tableView.delegate = self
         tableView.dataSource = self
+        
         
         
         tableView.separatorStyle = .none
